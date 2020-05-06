@@ -11,9 +11,10 @@
 </head>
 
 <body>
-
+<!-- Code de "navbar" pris sur bootstrap -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#"><img src="logo-acs-black.png" alt="logo access code school" id="logo-acs"></a>
+    <!-- le "alt" est à remplir clairement car c'est ce qui sera lu par les bots ou par les logiciels pour malvoyant par exemple -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -29,7 +30,7 @@
           <a class="nav-link" href="#">css</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">command line</a>
+          <a class="nav-link" href="#">Command Line</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Git & GitHub</a>
@@ -39,15 +40,54 @@
   </nav>
 
   <div class="container">
+    <!-- Code de "jumbotron" pris sur bootstrap -->
+    <div class="jumbotron">
+      <h1 class="display-4">Bonjour à toutes et à tous !</h1>
+      <p class="lead">Sur ce site, vous retrouverez toutes les informations utiles pour coder une page web.</p>
+      <hr class="my-4">
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
     <div class="row">
       <div class="col-sm">
-        One of three columns
+        <div class="card" style="width: 18rem;">
+          <img src="HTML5.png" class="card-img-top" alt="logo html5">
+          <div class="card-body">
+            <h5 class="card-title">HTML</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
       </div>
       <div class="col-sm">
-        One of three columns
+        <div class="card" style="width: 18rem;">
+          <img src="CSS3.png" class="card-img-top" alt="logo css3">
+          <div class="card-body">
+            <h5 class="card-title">CSS</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
       </div>
       <div class="col-sm">
-        One of three columns
+        <div class="card" style="width: 18rem;">
+          <img src="cmatrix.png" class="card-img-top" alt="image terminal">
+          <div class="card-body">
+            <h5 class="card-title">Command Line</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card" style="width: 18rem;">
+          <img src="GIT.png" class="card-img-top" alt="logo git">
+          <div class="card-body">
+            <h5 class="card-title">Git & GitHub</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
