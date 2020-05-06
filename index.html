@@ -11,9 +11,9 @@
 </head>
 
 <body>
-<!-- Code de "navbar" pris sur bootstrap -->
+  <!-- Code de "navbar" pris sur bootstrap -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><img src="logo-acs-black.png" alt="logo access code school" id="logo-acs"></a>
+    <a class="navbar-brand" href="https://www.accesscodeschool.fr/"><img src="img/logo-acs-black.png" alt="logo access code school" id="logo-acs"></a>
     <!-- le "alt" est à remplir clairement car c'est ce qui sera lu par les bots ou par les logiciels pour malvoyant par exemple -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -24,16 +24,19 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">html</a>
+          <a class="nav-link" href="html.html">HTML</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">css</a>
+          <a class="nav-link" href="css.html">CSS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Command Line</a>
+          <a class="nav-link" href="console.html">Command Line</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Git & GitHub</a>
+          <a class="nav-link" href="git.html">Git & GitHub</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="atom.html">Atom</a>
         </li>
       </ul>
     </div>
@@ -45,47 +48,65 @@
       <h1 class="display-4">Bonjour à toutes et à tous !</h1>
       <p class="lead">Sur ce site, vous retrouverez toutes les informations utiles pour coder une page web.</p>
       <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      <p>Il s'améliorera et se complètera au fur et à mesure de ma formation.<br>
+        Vous pouvez consulter mon GitHub si vous voulez.</p>
+      <div class="text-center"><a class="btn btn-primary btn-lg" href="https://github.com/Philpof" role="button">Mon GitHub</a></div>
+      <!-- Le "text-center" permet de centrer le texte mais ici le bouton -->
     </div>
+    <!-- Code de "card" pris sur bootstrap -->
     <div class="row">
-      <div class="col-sm mb-2">
-        <div class="card" style="width: 18rem;">
-          <img src="HTML5.png" class="card-img-top" alt="logo html5">
+      <!-- Card n°1 -->
+      <div class="col-sm d-flex justify-content-around">
+        <div class="card" style="width: 15rem;">
+          <img src="img/HTML5.png" class="card-img-top card-img-height" alt="logo HTML5">
           <div class="card-body">
             <h5 class="card-title">HTML</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text">Le HTML pour les nuls (ou presque) !</p>
+            <a href="#" class="btn btn-primary">C'est par là !</a>
           </div>
         </div>
       </div>
-      <div class="col-sm mb-2">
-        <div class="card" style="width: 18rem;">
-          <img src="CSS3.png" class="card-img-top" alt="logo css3">
+      <!-- Card n°2 -->
+      <div class="col-sm d-flex justify-content-around">
+        <div class="card" style="width: 15rem;">
+          <img src="img/CSS3.png" class="card-img-top card-img-height" alt="logo CSS3">
           <div class="card-body">
             <h5 class="card-title">CSS</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text">Le CCS c'est bien, en abuser, ça craind !</p>
+            <a href="#" class="btn btn-primary">Allons-y !</a>
           </div>
         </div>
       </div>
-      <div class="col-sm mb-2">
-        <div class="card" style="width: 18rem;">
-          <img src="cmatrix.png" class="card-img-top" alt="image terminal">
+      <!-- Card n°3 -->
+      <div class="col-sm d-flex justify-content-around">
+        <div class="card" style="width: 15rem;">
+          <img src="img/console.png" class="card-img-top card-img-height" alt="image console">
           <div class="card-body">
             <h5 class="card-title">Command Line</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text">Quelle console ? PS4 ou XBOX ? ...ah, non rien à voir...</p>
+            <a href="#" class="btn btn-primary">Suivre le lapin blanc</a>
           </div>
         </div>
       </div>
-      <div class="col-sm mb-2">
-        <div class="card" style="width: 18rem;">
-          <img src="GIT.png" class="card-img-top" alt="logo git">
+      <!-- Card n°4 -->
+      <div class="col-sm d-flex justify-content-around">
+        <div class="card" style="width: 15rem;">
+          <img src="img/GitGitHub.jpeg" class="card-img-top card-img-height" alt="logo Git&GitHub">
           <div class="card-body">
             <h5 class="card-title">Git & GitHub</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <p class="card-text">Mon nouveau mailleur ami !</p>
+            <a href="#" class="btn btn-primary">Go Go Git !</a>
+          </div>
+        </div>
+      </div>
+      <!-- Card n°5 -->
+      <div class="col-sm d-flex justify-content-around">
+        <div class="card" style="width: 15rem;">
+          <img src="img/Atom.webp" class="card-img-top card-img-height" alt="logo Atom">
+          <div class="card-body">
+            <h5 class="card-title">Atom</h5>
+            <p class="card-text">C'est une bombe !!! </p>
+            <a href="#" class="btn btn-primary">Boum !</a>
           </div>
         </div>
       </div>
@@ -93,9 +114,9 @@
   </div>
 
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script src="img/https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="img/https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="img/https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>
