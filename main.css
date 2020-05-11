@@ -9,6 +9,7 @@
   object-fit: cover;
   margin: auto;
 }
+
 .card-text{
   width: auto;
   height: 120px;
@@ -16,6 +17,18 @@
 }
 
 /*
+
+.background-color-blue{
+height:100vh;
+background-color: #3498db;
+}
+
+.background-color-red{
+height:50vh;
+width:50vw
+background-color: #e74c3c;
+}
+
 .card-img-top {
 width: auto;
 height: 150px;
